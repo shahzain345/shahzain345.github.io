@@ -1,5 +1,7 @@
 # httpz documentation
 
+[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/4793Cm3kc2)
+
 httpz is an HTTP client for Python that lets you set a TLS fingerprint as easily as you set a header. If you've used `httpx` or `requests`, the request/response side will feel like home. The difference is what happens underneath: you can hand it a JA3 string (or an Akamai HTTP/2 fingerprint, or a browser preset name) and the actual bytes on the wire change to match.
 
 These docs cover the whole public surface — every class, every method, and the handful of things that aren't obvious until they bite you.
